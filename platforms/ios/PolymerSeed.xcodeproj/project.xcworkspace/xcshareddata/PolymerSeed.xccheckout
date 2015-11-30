@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>378A7206-CFA9-4B59-9EDD-B32A23E46B13</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PolymerSeed</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>278669A1CBC57544F6A13584A8E5757FE7C3A08D</key>
+		<string>https://github.com/marioaleogolsat/cordova-angular-polymer-seed.git</string>
+		<key>3660FA262968B093AEDF6B47CB6D05623EFC484B</key>
+		<string>https://github.com/marioaleogolsat/maps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/PolymerSeed.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>278669A1CBC57544F6A13584A8E5757FE7C3A08D</key>
+		<string>../../../..</string>
+		<key>3660FA262968B093AEDF6B47CB6D05623EFC484B</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/marioaleogolsat/cordova-angular-polymer-seed.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>278669A1CBC57544F6A13584A8E5757FE7C3A08D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3660FA262968B093AEDF6B47CB6D05623EFC484B</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>278669A1CBC57544F6A13584A8E5757FE7C3A08D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cordova-angular-polymer-seed</string>
+		</dict>
+	</array>
+</dict>
+</plist>

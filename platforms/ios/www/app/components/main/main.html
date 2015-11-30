@@ -1,0 +1,101 @@
+<style is="custom-style">
+      .contentBody {
+        margin-top: 1em;
+        @apply(--layout-vertical);
+        @apply(--center-justified);
+        @apply(--layout-flex);
+      }
+
+      paper-header-panel {
+        width: 100%;
+      }
+      .paper-header {
+        height: 60px;
+        line-height: 60px;
+        color: white;
+        @apply(--layout-horizontal);
+        @apply(--layout-center);
+        @apply(--layout-justified);
+      }
+      .red .paper-header {
+        background-color: var(--paper-red-500);
+      }
+      .paper-header.tall {
+        height: 120px;
+      }
+      .paper-header .space {
+        width: 40px;
+        height: 40px;
+      }
+
+      a paper-button {
+        width: 95%;
+      }
+      .styleButton {
+        @apply(--layout-horizontal);
+        @apply(--center-justified);
+      }
+      .styleButton iron-icon {
+        margin-right: 1em;
+      }
+
+</style>
+
+<paper-drawer-panel id="paperDrawerPanel">
+  <div drawer>
+    <paper-header-panel class="red">
+        <div class="paper-header tall"></div>
+        <div class="content cover"></div>
+
+        <div class="contentBody">
+          <a ng-href="https://www.polymer-project.org/1.0/" style="text-decoration: none; color: black;">
+            <paper-button>
+              <div class="styleButton">
+                <iron-icon icon="polymer"></iron-icon>
+                <span>Home</spam>
+              </div>
+            </paper-button>
+          </a>
+          </br>
+          <a ng-href="https://elements.polymer-project.org/" style="text-decoration: none; color: black;">
+            <paper-button>
+              <div class="styleButton">
+                <iron-icon icon="folder"></iron-icon>
+                <span>Docs</spam>
+              </div>
+            </paper-button>
+          </a>
+        </div>
+    </paper-header-panel>
+  </div>
+
+  <div main>
+    <paper-header-panel class="red">
+      <div class="paper-header">
+        <paper-icon-button icon="menu" alt="menu" title="menu" paper-drawer-toggle></paper-icon-button>
+        <span>Cordova - Angular - Polymer</span>
+        <span class="space"></span>
+      </div>
+
+      <div class="contentBody">
+        <paper-card>
+          <div class="card-content" >
+            <p>Cordova-AngularJS-Polymer-Seed</p>
+
+            <p>Still Under Test</p>
+
+            <p>By: Mario Aleo</p>
+          </div>
+          <div class="card-actions">
+            <a ng-href="https://github.com/marioaleogolsat/cordova-angular-polymer-seed" style="text-decoration: none; color: black;">
+              <paper-icon-button icon="home" title="repository"></paper-icon-button>
+            </a>
+            <a ng-href="https://github.com/marioaleogolsat" style="text-decoration: none; color: black;">
+              <paper-icon-button icon="favorite" title="profile"></paper-icon-button>
+            </a>
+          </div>
+        </paper-card>
+      </div>
+    </paper-header-panel>
+  </div>
+</paper-drawer-panel>
